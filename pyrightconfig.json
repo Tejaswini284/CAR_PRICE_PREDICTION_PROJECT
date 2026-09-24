@@ -1,0 +1,13 @@
+{
+  "include": ["notebooks", "model", "backend", "data", "generate_report.py"],
+  "exclude": ["**/__pycache__", "**/.ipynb_checkpoints", "venv"],
+
+  "typeCheckingMode": "basic",
+
+  "reportAttributeAccessIssue": "none",
+  "reportCallIssue": "none",
+  "reportOptionalMemberAccess": "none",
+  "reportIndexIssue": "none",
+
+  "reportMissingImports": "warning"
+}
